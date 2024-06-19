@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Conor's Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="css/portfolio.css">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Permanent+Marker"/>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body style="overflow-y: hidden;">
+
+<script type="text/javascript" src="js/jquery-3.6.0.js"></script>
+<script type="text/javascript" src="js/materialize.min.js"></script>
+<script type="text/javascript" src="js/portfolio.js"></script>
+
+<nav id="nav">
+    <div class="nav-wrapper">
+        <a href="#" id="logo" class="brand-logo">
+            <video src="cltIntro.mp4" frameborder="0" width="500px" height="500px" class="logoAni" autoplay muted playsinline></video>
+        </a>
+        
+        <a href="#" data-target="mobileNav" id="sidenav" class="sidenav-trigger waves-effect waves-o navLink"><i class="material-icons">menu</i></a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li class="li"><a href="#welcome" class="waves-effect waves-o navLink">About</a></li>
+            <li class="li"><a href="#skills" class="waves-effect waves-o navLink">Skills</a></li>
+            <li class="li"><a class="dropdown-trigger waves-effect waves-o navLink" href="#!" data-target="dropdown">Work<i class="material-icons right dropArrow">arrow_drop_down</i></a></li>
+            <li class="li"><a href="#contact" class="waves-effect waves-o navLink">Contact</a></li>
+            <li class="li"><a href="#cv" class="waves-effect waves-o navLink">CV</a></li>
+        </ul>
+    </div>
+</nav>
+
+<ul class="sidenav" id="mobileNav">
+    <li><a href="#welcome"><img src="logo.png" alt="Logo" width="500" height="500"></a></li>
+    <li><a href="#about" class="waves-effect waves-o"><i class="material-icons" >person</i>About</a></li>
+    <li><a href="#skills" class="waves-effect waves-o"><i class="material-icons">tune</i>Skills</a></li>
+    <li class="no-padding">
+        <ul class="collapsible collapsible-accordion">
+          <li>
+            <a class="collapsible-header"><i class="material-icons" >folder</i>Work<i class="material-icons right dropArrow">arrow_drop_down</i></a>
+            <div class="collapsible-body">
+              <ul>
+                  <li><a href="#logos" class="waves-effect waves-o">Logos</a></li>
+                  <li><a href="#banners" class="waves-effect waves-o">Banners</a></li>
+                  <li><a href="#posters" class="waves-effect waves-o">Posters</a></li>
+                  <li><a href="#videos" class="waves-effect waves-o">Videos</a></li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </li>
+    <li><a href="#contact" class="waves-effect waves-o"><i class="material-icons" >contact_mail</i>Contact</a></li>
+    <li><a href="#cv" class="waves-effect waves-o"><i class="material-icons" >get_app</i>CV</a></li>
+</ul>
+
+<ul id="dropdown" class="dropdown-content">
+  <li><a href="#logos">Logos</a></li>
+  <li><a href="#banners">Banners</a></li>
+  <li><a href="#posters">Posters</a></li>
+  <li><a href="#videos">Videos</a></li>
+</ul>
+
+<div class="containerFS">
+    <section id="welcome">
+        <div class="secGrad">
+            <div id="main" class="container">
+                <div class="row">
+                    <div class="col s12">
+                        <div class="web text">
+                            <h1>Hi, I'm Conor</h1>
+                            <p>(with one "n")</p>
+                            <h3>Welcome to my portfolio</h3>
+                        </div>
+                        <div class="mob text">
+                            <h1>Hi, I'm Conor</h1>
+                            <p class="oneN">(with one "n")</p>
+                            <h4>Welcome to my portfolio</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="darkTop"></div>
+        </div>
+    </section>
+    <section id="about">
+        <div class="secDark">
+            <div class="container">
+                <div class="row">
+                    <div class="col s12">
+                        <div class="web center">
+                            <h2 class="secTitle">About Me</h2>
+                            <div class="carousel carousel-slider">
+                                <a class="carousel-item" href="#!"><img src="about/coder.png"></a>
+                                <a class="carousel-item" href="#!"><img src="about/gd.png"></a>
+                                <a class="carousel-item" href="#!"><img src="about/gamer.png"></a>
+                            </div>
+                        </div>
+                        <div class="mob center">
+                            <h4 class="secTitle">About Me</h4>
+                            <div class="carousel carousel-slider">
+                                <a class="carousel-item" href="#!"><img src="about/coder.png"></a>
+                                <a class="carousel-item" href="#!"><img src="about/gd.png"></a>
+                                <a class="carousel-item" href="#!"><img src="about/gamer.png"></a>
+                                <a class="carousel-item" href="#!"><img src="about/skater.png"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="skills">
+        <div class="secGrad">
+            <div class="darkBot"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col s12">
+                        <div class="web center">
+                            <h2>My Skills</h2>
+                            <div class="row">
+                                <div class="col s12 center">
+                                    <h4 class="secTitle">Adobe Suite</h4>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col s2">
+                                    <img src="skills/adobe/ps.png" class="skillRes">
+                                </div>
+                                <div class="col s2">
+                                    <img src="skills/adobe/pr.png" class="skillRes">
+                                </div>
+                                <div class="col s2">
+                                    <img src="skills/adobe/ae.png" class="skillRes">
+                                </div>
+                                <div class="col s2">
+                                    <img src="skills/adobe/ai.png" class="skillRes">
+                                </div>
+                                <div class="col s2">
+                                    <img src="skills/adobe/me.png" class="skillRes">
+                                </div>
+                                <div class="col s2">
+                                    <img src="skills/adobe/au.png" class="skillRes">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col s12 center">
+                                    <h4 class="secTitle">Web Technologies</h4>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col s2">
+                                    <img src="skills/web/html.png" class="skillRes">
+                                </div>
+                                <div class="col s2">
+                                    <img src="skills/web/css.png" class="skillRes">
+                                </div>
+                                <div class="col s2">
+                                    <img src="skills/web/js.png" class="skillRes">
+                                </div>
+                                <div class="col s2">
+                                    <img src="skills/web/vue.png" class="skillRes">
+                                </div>
+                                <div class="col s2">
+                                    <img src="skills/web/jqW.png" class="skillRes">
+                                </div>
+                                <div class="col s2">
+                                    <img src="skills/web/git.png" class="skillRes">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col s12 center">
+                                    <h4 class="secTitle">Games Design</h4>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col s4">
+                                    <img src="skills/games/c4d.png" class="skillRes">
+                                </div>
+                                <div class="col s4">
+                                    <img src="skills/games/unreal.png" class="skillRes">
+                                </div>
+                                <div class="col s4">
+                                    <img src="skills/games/3dsM.png" class="skillRes">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col s12 center">
+                                    <h4 class="secTitle">Microsoft Office</h4>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col s3">
+                                    <img src="skills/office/wo.png" class="skillRes">
+                                </div>
+                                <div class="col s3">
+                                    <img src="skills/office/ex.png" class="skillRes">
+                                </div>
+                                <div class="col s3">
+                                    <img src="skills/office/pp.png" class="skillRes">
+                                </div>
+                                <div class="col s3">
+                                    <img src="skills/office/pu.png" class="skillRes">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mob center">
+                            <h4>My Skills</h4>
+                            <div class="row">
+                                <div class="col s12 center">
+                                    <h6 class="secTitle">Adobe Suite</h6>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col s4">
+                                    <img src="skills/adobe/ps.png" class="skillRes">
+                                </div>
+                                <div class="col s4">
+                                    <img src="skills/adobe/pr.png" class="skillRes">
+                                </div>
+                                <div class="col s4">
+                                    <img src="skills/adobe/ae.png" class="skillRes">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col s4">
+                                    <img src="skills/adobe/ai.png" class="skillRes">
+                                </div>
+                                <div class="col s4">
+                                    <img src="skills/adobe/me.png" class="skillRes">
+                                </div>
+                                <div class="col s4">
+                                    <img src="skills/adobe/au.png" class="skillRes">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col s12 center">
+                                    <h4 class="secTitle">Web Technologies</h4>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col s4">
+                                    <img src="skills/web/html.png" class="skillRes">
+                                </div>
+                                <div class="col s4">
+                                    <img src="skills/web/css.png" class="skillRes">
+                                </div>
+                                <div class="col s4">
+                                    <img src="skills/web/js.png" class="skillRes">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col s4">
+                                    <img src="skills/web/vue.png" class="skillRes">
+                                </div>
+                                <div class="col s4">
+                                    <img src="skills/web/jqW.png" class="skillRes">
+                                </div>
+                                <div class="col s4">
+                                    <img src="skills/web/git.png" class="skillRes">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col s12 center">
+                                    <h4 class="secTitle">Games Design</h4>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col s4">
+                                    <img src="skills/games/c4d.png" class="skillRes">
+                                </div>
+                                <div class="col s4">
+                                    <img src="skills/games/unreal.png" class="skillRes">
+                                </div>
+                                <div class="col s4">
+                                    <img src="skills/games/3dsM.png" class="skillRes">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col s12 center">
+                                    <h6 class="secTitle">Microsoft Office</h6>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col s3">
+                                    <img src="skills/office/wo.png" class="skillRes">
+                                </div>
+                                <div class="col s3">
+                                    <img src="skills/office/ex.png" class="skillRes">
+                                </div>
+                                <div class="col s3">
+                                    <img src="skills/office/pp.png" class="skillRes">
+                                </div>
+                                <div class="col s3">
+                                    <img src="skills/office/pu.png" class="skillRes">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="darkTop"></div>
+        </div>
+    </section>
+    <section id="logos">
+        <div class="secDark">
+            <div class="container">
+                <div class="row">
+                    <div class="col s12">
+                        <div class="web center">
+                            <h2 class="secTitle">Logos</h2>
+                            <div class="row">
+                                <div class="col s3">
+                                    <img src="logos/tcd.png" class="logoRes">
+                                </div>
+                                <div class="col s3">
+                                    <img src="logos/sk.png" class="logoRes">
+                                </div>
+                                <div class="col s3">
+                                    <img src="logos/smktv.png" class="logoRes">
+                                </div>
+                                <div class="col s3">
+                                    <img src="logos/workflow.png" class="logoRes">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col s3">
+                                    <img src="logos/tcdH.png" class="logoRes">
+                                </div>
+                                <div class="col s3">
+                                    <img src="logos/clt.png" class="logoRes">
+                                </div>
+                                <div class="col s3">
+                                    <img src="logos/printech.png" class="logoRes">
+                                </div>
+                                <div class="col s3">
+                                    <img src="logos/synical.png" class="logoRes">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col s6">
+                                    <img src="logos/dojo.png" class="logoRes">
+                                </div>
+                                <div class="col s6">
+                                    <img src="logos/freq.png" class="logoRes">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mob center">
+                            <h4 class="secTitle">Logos</h4>
+                            <div class="row">
+                                <div class="col s6">
+                                    <img src="logos/tcd.png" class="logoRes">
+                                </div>
+                                <div class="col s6">
+                                    <img src="logos/sk.png" class="logoRes">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col s6">
+                                    <img src="logos/smktv.png" class="logoRes">
+                                </div>
+                                <div class="col s6">
+                                    <img src="logos/workflow.png" class="logoRes">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col s6">
+                                    <img src="logos/tcdH.png" class="logoRes">
+                                </div>
+                                <div class="col s6">
+                                    <img src="logos/clt.png" class="logoRes">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col s6">
+                                    <img src="logos/printech.png" class="logoRes">
+                                </div>
+                                <div class="col s6">
+                                    <img src="logos/synical.png" class="logoRes">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col s12 center">
+                                    <img src="logos/dojo.png" class="logoRes">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col s12 center">
+                                    <img src="logos/freq.png" class="logoRes">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="banners">
+        <div class="secGrad">
+            <div class="darkBot"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col s12">
+                        <div class="web center">
+                            <h2>Banners</h2>
+                            <div class="row">
+                                <div class="col s6">
+                                    <img src="webBanners/smktvM.png" height="300" class="shadow bannerRes">
+                                </div>
+                                <div class="col s6">
+                                    <img src="webBanners/sk.png" height="300" class="shadow bannerRes">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col s6">
+                                    <img src="webBanners/skxtcd.png" height="300" class="shadow bannerRes">
+                                </div>
+                                <div class="col s6">
+                                    <img src="webBanners/smktvG.png" height="300" class="shadow bannerRes">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col s6">
+                                    <img src="webBanners/kfc.png" height="278" class="shadow bannerRes">
+                                </div>
+                                <div class="col s6">
+                                    <img src="webBanners/tcdE.png" height="235" class="shadow bannerRes">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mob center">
+                            <h4>Banners</h4>
+                            <div class="row">
+                                <div class="col s12">
+                                    <img src="mobBanners/smktvM.png" height="175" class="shadow  bannerRes">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col s12">
+                                    <img src="mobBanners/sk.png" height="175" class="shadow  bannerRes">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col s12">
+                                    <img src="mobBanners/skxtcd.png" height="175" class="shadow  bannerRes">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col s12">
+                                    <img src="mobBanners/smktvG.png" height="175" class="shadow  bannerRes">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col s12">
+                                    <img src="mobBanners/kfc.png" height="162" class="shadow  bannerRes">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col s12">
+                                    <img src="mobBanners/tcdE.png" height="135" class="shadow  bannerRes">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="darkTop"></div>
+        </div>
+    </section>
+    <section id="posters" class="secDark">
+        <div class="secDark">
+            <div class="container">
+                <div class="row">
+                    <div class="col s12">
+                        <div class="web center">
+                                <h2 class="secTitle">Posters</h2>
+                                <div class="row">
+                                    <div class="col s4">
+                                        <img src="webPosters/enterprise.png" height="300" class="shadow posterRes">
+                                    </div>
+                                    <div class="col s4">
+                                        <img src="webPosters/siy.png" height="300" class="shadow posterRes">
+                                    </div>
+                                    <div class="col s4">
+                                        <img src="webPosters/smktvL.png" height="300" class="shadow posterRes">
+                                    </div>
+                                </div>
+                                <div class="row center">
+                                    <div class="col s4">
+                                        <img src="webPosters/health.png" height="300" class="shadow posterRes">
+                                    </div>
+                                    <div class="col s4">
+                                        <img src="webPosters/kfc.png" height="300" class="shadow posterRes">
+                                    </div>
+                                    <div class="col s4">
+                                        <img src="webPosters/smktvQR.png" height="300" class="shadow posterRes">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mob center">
+                                <h4 class="secTitle">Posters</h4>
+                                <div class="row">
+                                    <div class="col s12">
+                                        <img src="mobPosters/smktvL.png" height="175" class="shadow posterRes">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col s12">
+                                        <img src="mobPosters/smktvQR.png" height="175" class="shadow posterRes qr">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col s12">
+                                        <img src="mobPosters/siy.png" height="175" class="shadow posterRes">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col s12">
+                                        <img src="mobPosters/enterprise.png" height="175" class="shadow posterRes">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col s12">
+                                        <img src="mobPosters/kfc.png" height="175" class="shadow posterRes">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col s12">
+                                        <img src="mobPosters/health.png" height="175" class="shadow posterRes">
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="videos" class="secGrad">
+        <div class="secGrad">
+            <div class="darkBot"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col s12">
+                        <div class="web center">
+                            <h2>Videos</h2>
+                            <div class="row">
+                                <div class="col s6">
+                                    <a href="https://youtu.be/YRnHrzm8-0g" target="_blank">
+                                        <img onmouseover="this.src='webThumbnails/pullUpH.png'" onmouseout="this.src='webThumbnails/pullUp.png'" src="webThumbnails/pullUp.png" height="300" class="videoRes shadow">
+                                    </a>
+                                </div>
+                                <div class="col s6">
+                                    <a href="https://youtu.be/-D6oDloPa38" target="_blank">
+                                        <img onmouseover="this.src='webThumbnails/tcd8H.png'" onmouseout="this.src='webThumbnails/tcd8.png'" src="webThumbnails/tcd8.png" height="300" class="videoRes shadow">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col s6">
+                                    <a href="https://youtu.be/hJKtzSFX65Y" target="_blank">
+                                        <img onmouseover="this.src='webThumbnails/tcd10H.png'" onmouseout="this.src='webThumbnails/tcd10.png'" src="webThumbnails/tcd10.png" height="300" class="videoRes shadow">
+                                    </a>
+                                </div>
+                                <div class="col s6">
+                                    <a href="https://youtu.be/qooWmFHBCQ4" target="_blank">
+                                        <img onmouseover="this.src='webThumbnails/tcd12H.png'" onmouseout="this.src='webThumbnails/tcd12.png'" src="webThumbnails/tcd12.png" height="300" class="videoRes shadow">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mob center">
+                            <h4>Videos</h4>
+                            <div class="row">
+                                <div class="col s12">
+                                    <a href="https://youtu.be/YRnHrzm8-0g" target="_blank">
+                                        <img src="webThumbnails/pullUp.png" height="300" class="videoRes shadow">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col s12">
+                                    <a href="https://youtu.be/-D6oDloPa38" target="_blank">
+                                        <img src="webThumbnails/tcd8.png" height="300" class="videoRes shadow">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col s12">
+                                    <a href="https://youtu.be/hJKtzSFX65Y" target="_blank">
+                                        <img src="webThumbnails/tcd10.png" height="300" class="videoRes shadow">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col s12">
+                                    <a href="https://youtu.be/qooWmFHBCQ4" target="_blank">
+                                        <img src="webThumbnails/tcd12.png" height="300" class="videoRes shadow">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="darkTop"></div>
+        </div>
+    </section>
+    <section id="contact" class="secDark">
+        <div class="container">
+                <div class="row">
+                    <div class="col s12">
+                        <div class="web">
+                            <h2 class="center secTitle">Contact Me</h2>
+                            <div class="row">
+                                <div class="col s2">
+                                    <div class="iconCont center">
+                                        <i class="contIcon material-icons">phone</i>
+                                    </div>
+                                </div>
+                                <div class="col s10">
+                                    <h4 id="number">Telephone</h4>
+                                    <h4 class="number">07948148</h4>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col s2">
+                                    <div class="iconCont center">
+                                        <i class="contIcon material-icons">mail</i>
+                                    </div>
+                                </div>
+                                <div class="col s10">
+                                    <h4 id="email">Email</h4>
+                                    <h4 class="email">conorlthomas@outlook.com</h4>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col s2">
+                                    <div class="iconCont center">
+                                        <i class="contIcon material-icons">home</i>
+                                    </div>
+                                </div>
+                                <div class="col s10">
+                                    <h4 id="address">Address</h4>
+                                    <h4 class="email">12 Church Walk, Royton,</h4>
+                                    <h4 class="email">Oldham, OL2 5QH</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mob">
+                            <h4 class="secTitle">Contact Me</h4>
+                            <div class="row">
+                                <div class="col s2">
+                                    <div class="iconCont center">
+                                        <i class="contIcon material-icons">phone</i>
+                                    </div>
+                                </div>
+                                <div class="col s10">
+                                    <h4 id="number">Telephone</h4>
+                                    <h4 class="number">07948148</h4>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col s2">
+                                    <div class="iconCont center">
+                                        <i class="contIcon material-icons">mail</i>
+                                    </div>
+                                </div>
+                                <div class="col s10">
+                                    <h4 id="email">Email</h4>
+                                    <h4 class="email">conorlthomas@outlook.com</h4>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col s2">
+                                    <div class="iconCont center">
+                                        <i class="contIcon material-icons">home</i>
+                                    </div>
+                                </div>
+                                <div class="col s10">
+                                    <h4 id="address">Address</h4>
+                                    <h4 class="email">12 Church Walk, Royton,</h4>
+                                    <h4 class="email">Oldham, OL2 5QH</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section id="cv" class="secGrad">
+        <div class="darkBot"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col s12">
+                        <div class="web center">
+                            <h2>CV</h2>
+                            <div class="row">
+                                <div class="col s12">
+                                    <div class="cvDown shadow waves-effect waves-o">
+                                        <a id="download" href="ConorThomasCV2023.pdf" target="_blank" download>
+                                            <h3>
+                                                <i class="material-icons">file_download</i>
+                                                Download
+                                            </h3>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mob center">
+                            <h2>CV</h2>
+                            <div class="row">
+                                <div class="col s12">
+                                    <div class="cvDown shadow waves-effect waves-o">
+                                        <a id="download" href="ConorThomasCV2023.pdf" target="_blank" download>
+                                            <h4>
+                                                <i class="material-icons">file_download</i>
+                                                Download
+                                            </h4>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="darkTop"></div>
+    </section>
+    <section id="copyright" class="secDark">
+        <div class="web">
+            <h5>© Copyright 2023 by Conor Thomas. All Rights Reserved.</h5>
+        </div>
+        <div class="mob">
+            <p>© Copyright 2023 by Conor Thomas. All Rights Reserved.</p>
+        </div>
+    </section>
+</div>
+
+</body>
+</html>
